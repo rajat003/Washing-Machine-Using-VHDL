@@ -1,0 +1,19 @@
+if(lid_closed='1') then
+
+
+else
+				next_state<=idle;
+				coin_return<='0';
+				water<='0';
+				water_temp10<='0';
+				water_temp20<='0';
+				water_temp30<='0';
+				detergent<='0';
+				spin<='0';
+				drain<='0';
+				blower<='0';
+					end if;
+start=1
+coin=0
+stop=0
+lid_closed=1, opened at 5
